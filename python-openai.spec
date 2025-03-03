@@ -27,3 +27,5 @@ asynchronous clients powered by httpx.
 %files
 %license LICENSE
 %{_bindir}/openai
+%{python_sitelib}/openai-%{version}.dist-info
+%{python_sitelib}/openai/
