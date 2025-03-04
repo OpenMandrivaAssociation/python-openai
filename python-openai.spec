@@ -12,9 +12,11 @@ BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(anyio)
-#BuildRequires:  python3dist(httpx)
+BuildRequires:  python3dist(httpx)
 BuildRequires:  python3dist(hatch-fancy-pypi-readme)
-#BuildRequires:  python3dist(jiter)
+BuildRequires:  python3dist(jiter)
+Requires:  python3dist(httpx)
+Requires:  python3dist(jiter)
 BuildSystem:	python
 
 %description
