@@ -1,8 +1,8 @@
 %global pypi_name openai
 
 Name:           python-%{pypi_name}
-Version:        1.65.2
-Release:        2
+Version:        2.14.0
+Release:        1
 Summary:        The official Python library for the openai API
 Group:          Development/Python
 License:        ASL
