@@ -1,7 +1,7 @@
 %global pypi_name openai
 
 Name:           python-%{pypi_name}
-Version:        2.14.0
+Version:        2.51.0
 Release:        1
 Summary:        The official Python library for the openai API
 Group:          Development/Python
